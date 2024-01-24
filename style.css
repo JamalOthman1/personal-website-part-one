@@ -52,7 +52,6 @@ main {
 footer {
   background-color: #333333;
   color: aliceblue;
-  height: 70px;
   padding: 10px;
   position: fixed;
   left: 0;
@@ -63,24 +62,24 @@ footer {
   box-shadow: 0 0 12px -2px black;
 }
 
-footer  a {
-  margin: 0 25px;
+.icon {
+  height: 80px;
+  width: 100px;
 }
-
-footer .media-link  {
-  height:  45px;
+.media-link  {
+  margin-top: 3rem;
 }
 
 .active {
   border-bottom: 1px solid #c0c0c0;
 }
 
-main > img {
+/* main > img { */
   /* height: 500px; */
-  width: 300px;
+  /* width: 300px;
   float: right;
-  margin:  10px 0 10px 10px;
-}
+  margin:  10px 0 10px 10px; */
+/* } */
 
 main .quote {
   font-family: 'Satisfy', cursive;
@@ -190,8 +189,7 @@ section {
 
   footer a {
     margin: 0;
-  }
-
+  
   #form {
     margin: 0;
   }

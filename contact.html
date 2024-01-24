@@ -7,38 +7,41 @@
     <script defer="" src="/javascript.js"></script>
     <link rel="stylesheet" href="/style.css"> 
     <link rel="stylesheet" href="/reset.css">
-    <title>personal website</title>
 
-    
-
+    <title>Personal website</title>
 </head>
 <body>
-    <nav> 
-     <div id="logo">
+   <nav>
+    <div id="logo">
         <h1>Mustafa Jabr</h1>
-     </div>
-     <div id="links"> 
-        <a class="active" href="#">Home</a>
+    </div>
+    <div id="links"> 
+        <a href="index.html">Home</a>
         <a href="about.html">About</a>
-        <a href="portfolio.html">Portfolio</a> 
-        <a href="contact.html">Contact</a>
-     </div>
-    </nav>
+        <a href="portfolio.html">Portfolio</a>
+        <a class="active" href="contact.html">Contact</a>
+    </div>
+   </nav>
    <main>
-    <img src="https://media.licdn.com/dms/image/D4E03AQGWdo0xocOzXQ/profile-displayphoto-shrink_800_800/0/1705866378613?e=1711584000&v=beta&t=DfpG3uYgsCS1ufAG0AdXVdRwxLvXwxPFhhVdVWP-v2U" alt="image">
-    <h2>Entrepreneur, Management, Leader</h2>
-    <p>
-        Interrested in improving 
-        development processes for 
-        teams big and small,and 
-        helping other find there way
-    </p>
-    <h3 class="quote"> 
-       "You do not have to see the whole staircase ,just take the first 
-      step." 
-     " -  Martin luther King Jr"
-    </h3>
-    
+    <h1>Contact Me</h1>
+    <form id="form">
+      <div>
+        <label for="name">Name:</label>
+        <br>
+        <input id="name" type="text" name="name">
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <br>
+        <input id="email" type="email" name="email">
+      </div>
+      <div>
+        <label for="message">Message:</label>
+        <br>
+        <textarea id="message" name="message" rows="6" cols="50"></textarea>
+      <button type="submit" id="submit">Submit</button>
+    </form>  
+
    </main>
    <footer>
    
@@ -55,3 +58,4 @@
    </footer> 
     
 </body>
+</html>
